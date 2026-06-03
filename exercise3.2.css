@@ -66,7 +66,7 @@ nav {
   align-items: center;
 
   /* TODO 3: push .nav-links to the right side */
-  justify-content: fle;
+  justify-content: right;
 }
 
 .nav-logo {
