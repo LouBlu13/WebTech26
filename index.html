@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebTech25 - Exercise Index</title>
+    <title>WebTech26 - Übungsindex</title>
     <style>
       * {
         margin: 0;
@@ -19,7 +19,7 @@
       }
 
       .container {
-        max-width: 900px;
+        max-width: 1000px;
         margin: 0 auto;
         background: white;
         border-radius: 10px;
@@ -42,60 +42,57 @@
 
       .exercises {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
       }
 
       .exercise-card {
-        background: #f8f9fa;
-        border: 2px solid #667eea;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
         border-radius: 8px;
         padding: 20px;
         transition: all 0.3s ease;
         cursor: pointer;
         text-decoration: none;
-        color: inherit;
         display: flex;
         align-items: center;
         justify-content: center;
-        min-height: 100px;
+        min-height: 80px;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
       }
 
       .exercise-card:hover {
-        background: #667eea;
-        color: white;
-        transform: translateY(-5px);
-        box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
-      }
-
-      .exercise-card span {
-        font-weight: 600;
-        font-size: 16px;
-        text-align: center;
+        transform: translateY(-8px);
+        box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+        background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>🎓 WebTech25</h1>
-      <p class="subtitle">Click on an exercise to open it</p>
+      <h1>📚 WebTech26</h1>
+      <p class="subtitle">Übungen zum Lernen und Üben</p>
 
       <div class="exercises">
-        <a href="/exercise2.1" class="exercise-card">
-          <span>Exercise 2.1</span>
-        </a>
-        <a href="/exercise3.1" class="exercise-card">
-          <span>Exercise 3.1</span>
-        </a>
-        <a href="/exercise3.2" class="exercise-card">
-          <span>Exercise 3.2</span>
-        </a>
-        <a href="/exercise3.3" class="exercise-card">
-          <span>Exercise 3.3</span>
-        </a>
-        <a href="/exercise4.1" class="exercise-card">
-          <span>Exercise 4.1</span>
-        </a>
+        <a href="exercise1.1.html" class="exercise-card">Exercise 1.1</a>
+
+        <a href="exercise2.1.html" class="exercise-card">Exercise 2.1</a>
+
+        <a href="exercise3.1.html" class="exercise-card">Exercise 3.1</a>
+        <a href="exercise3.2.html" class="exercise-card">Exercise 3.2</a>
+        <a href="exercise3.3.html" class="exercise-card">Exercise 3.3</a>
+
+        <a href="exercise4.1.html" class="exercise-card">Exercise 4.1</a>
+        <a href="exercise4.2.html" class="exercise-card">Exercise 4.2</a>
+        <a href="exercise4.3.html" class="exercise-card">Exercise 4.3</a>
+        <a href="exercise4.4.html" class="exercise-card">Exercise 4.4</a>
+        <a href="exercise5.1.html" class="exercise-card">Exercise 5.1</a>
+        <a href="exercise5.2.html" class="exercise-card">Exercise 5.2</a>
+        <a href="exercise5.3.html" class="exercise-card">Exercise 5.3</a>
+        <a href="exercise5.4.html" class="exercise-card">Exercise 5.4</a>
       </div>
     </div>
   </body>
