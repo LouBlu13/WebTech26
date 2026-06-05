@@ -93,5 +93,5 @@ function printCart(cartArray) {
 }
 
 // TODO 6: call printCart with the cart array
-
+  
 printCart(cart);
